@@ -10,6 +10,7 @@ namespace Hyperspace
     {
         static void Main(string[] args)
         {
+            Console.ReadKey();
             Hyperspace newGame = new Hyperspace();
             newGame.PlayGame();
         }
